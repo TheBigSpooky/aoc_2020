@@ -7,7 +7,7 @@ def part_1():
     for i in vals:
         if 2020 - i in vals:
             print(f"part1: {i * (2020 - i)}")
-            break
+            return
 
 
 def part_2():
